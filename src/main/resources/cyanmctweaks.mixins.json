@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.miracrypto.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "ApplyBonusLootFunctionMixin",
+    "ItemEntityMixin",
+    "LivingEntityMixin",
+    "LootingEnchantLootFunctionMixin",
+    "PlayerEntityMixin",
+    "WardenEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "LootTableMixin",
+    "OreBlockMixin",
+    "OreFeatureMixin",
+    "PlayerManagerMixin"
+  ]
+}
